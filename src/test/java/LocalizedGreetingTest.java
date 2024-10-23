@@ -3,6 +3,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 import static org.junit.Assert.assertEquals;
 
+
 public class LocalizedGreetingTest {
 
     @org.junit.jupiter.api.Test
