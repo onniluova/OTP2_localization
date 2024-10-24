@@ -1,7 +1,7 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import java.util.Locale;
 import java.util.ResourceBundle;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LocalizedGreetingTest {
 
@@ -37,4 +37,3 @@ public class LocalizedGreetingTest {
         assertEquals("Hello!", greeting); // Expected default is English
     }
 }
-
