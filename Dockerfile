@@ -6,6 +6,6 @@ COPY pom.xml /app/
 
 COPY . /app/
 
-RUN mvn clean install
+RUN mvn package
 
-CMD ["java", "-jar", "target/test.jar"]
+cmd ["java", "-jar", "target/test.jar"]
